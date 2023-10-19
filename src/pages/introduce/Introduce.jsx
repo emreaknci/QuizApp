@@ -15,7 +15,7 @@ const Introduce = () => {
   return (
       <div className='introduce' >
         <div className="introduce__container">
-          <img src="../../../dist/assets/quiz.png" alt="" />
+          <img src="../../../assets/quiz.png" alt="" />
           <Dropdown data={difficulty} setDiffChange={setDiffChange}/>
           <div onClick={startQuiz} className='introduce__btn'> Start Quiz!</div>
         </div>

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: #000; /* Arka plan rengi */
-    background-image: url("../../../dist/assets/Icon Grid.svg");
+    background-image: url("../../../assets/Icon Grid.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; /* Tekrar etmeyi engelle */
@@ -12,30 +12,30 @@ body{
 }
 @keyframes changeBG{
     0%{
-        background-image: url("../../../dist/assets/Icon Grid.svg");
+        background-image: url("../../../assets/Icon Grid.svg");
     }
     12.5%{
-        background-image: url("../../../dist/assets/Icon Grid (1).svg");
+        background-image: url("../../../assets/Icon Grid (1).svg");
     }
     25%{
-        background-image: url("../../../dist/assets/Icon Grid (2).svg");
+        background-image: url("../../../assets/Icon Grid (2).svg");
     }
     37.5%{
-        background-image: url("../../../dist/assets/Icon Grid (3).svg");
+        background-image: url("../../../assets/Icon Grid (3).svg");
     }
     50%{
-        background-image: url("../../../dist/assets/Icon Grid (4).svg");
+        background-image: url("../../../assets/Icon Grid (4).svg");
     }
     62.5%{
-        background-image: url("../../../dist/assets/Icon Grid (5).svg");
+        background-image: url("../../../assets/Icon Grid (5).svg");
     }
     75%{
-        background-image: url("../../../dist/assets/Icon Grid (6).svg");
+        background-image: url("../../../assets/Icon Grid (6).svg");
     }
     87.5%{
-        background-image: url("../../../dist/assets/Icon Grid (7).svg");
+        background-image: url("../../../assets/Icon Grid (7).svg");
     }
     100%{
-        background-image: url("../../../dist/assets/Icon Grid.svg");
+        background-image: url("../../../assets/Icon Grid.svg");
     }
 }
